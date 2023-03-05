@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: rgb(24, 23, 23);
+	overflow-x: hidden;
+	font-family: 'inter', sans-serif;
+
+}
+html {
+	scroll-behavior: smooth;
+	height: 2800px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	font-family: 'Julee', cursive;
+}
+
+p {
+	line-height: 2;
+	font-weight: 300;
+	font-family: 'Julee', cursive;
+}
+
+li {
+	font-family: 'Julee', cursive;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'inter', sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+.container {
+	min-height: 200vh;
+	margin-bottom: 170px;
+	font-family: times new roman;
+
+}
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+
+}
+.calender{
+	font-size: 50px;
+	max-width: 800px;
+	font-family: serif;
+	font-weight: bold;
+	color:#d390b4;
+	margin:10% 10%;
+}
+.month{
+	text-align: center;
+	background: palevioletred;
+	font-size: 40px;
+	letter-spacing: 1px;
+	color: black;
+	border:3px solid rgb(250, 166, 166);
+	font-family: 'Julee', cursive;
+}
+table, th, td{
+	width: 40%;
+	table-layout: fixed;
+	text-align: center;
+	font-size: 25px;
+	border-collapse: collapse;
+	border:5px solid rgb(250, 166, 166);
+	font-family: Elaphant;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+tr, th, td{
+	padding: 15px;
+}
+th{
+	background: #944671;
+	color: white;
+	font-family: arial rgb(92, 55, 228);
+}
+td{
+	background: #d880b1;
+	color: rgb(231, 42, 159);
+}
+td:hover{
+	background: rgb(252, 180, 228);
+}
+.container h1 {
+	font-family: times new roman;
+	/* font-family: 'Great Vibes', cursive; */
+	font-size: 35px;
+}
+
+.container h1.menuu{
+	font-family: 'Great Vibes', cursive;
+	font-size: 38px;
+}
+
+
+span{
+	color: #e7489e;
+}
+
+
+.navbar_wrapper {
+	display: flex;
+	color: #000000;
+	width: inherit;
+	max-width: 1080px;
+	height: inherit;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.brand {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-weight: 700;
+}
+
+.navabar_menu {
+	display: flex;
+	flex-direction: row;
+	font-weight: 400;
+	font-size: 18px;
+	gap: 30px;
+	text-transform: capitalize;
+}
+
+iframe {
+	height: 400px;
+	width: 400px;
+	margin-bottom: 200px;
+}
+.btn_map{
+	height: 400px;
+	width: 400px;
+
+}
+
+source{
+	margin-top: 250px;
+}
+
+.navbar {
+	width: 100vw;
+	height: 70px;
+	background-color: rgb(255, 170, 164);
+	position: fixed;
+	top: 0;
+	left: 0
+}
+.pic-1 img {
+	margin-left: 110px;
+}
+img:not(.IG-logo, .Twitter-logo) {
+	width: 300px;
+	border-radius: 90%;
+	/* margin-top: 100px; */
+	margin-top: -30px;
+	margin-bottom: 40px;
+	padding: 35px;
+	
+}
+.img1 {
+	width: 200px;
+	/*border-radius: 90%;*/
+	/* margin-top: 100px; */
+	margin-top: -30px;
+	margin-bottom: 40px;
+	padding: 35px;
+}
+.Twitter-logo{
+	width: 30px;
+	/* margin-top: 100px; */
+	/* margin-top: -35px; */
+	/* margin-bottom: 35px; */
+	/*margin-right: 200px;*/
+	
+}
+.IG-logo{
+	width: 30px;
+	/*margin-top: 50px;*/
+	/* margin-left: 175px; */
+	/* margin-bottom: 155px; */
+	/*margin-right: 200px;*/
+}
+#galery img {
+	border-radius: 10%;
+	width: 500px;
+}
+section {
+	background-image: url(gambar/background\ pink.jpg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+}
+
+
+.form_buku_tamu {
+    width: 550px;
+    height: 400px;
+    background-color: #ffa7b5;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 4px 6px rgb(231, 72, 158); 
+    padding: 50px 70px;
+    gap: 25px;
+    justify-content: center;border-radius: 10px;
+	padding: 0 20px;
+    box-sizing: border-box;
+	font-size: 30px;
+	border: 3px solid rgb(231, 72, 158);
+	margin-bottom: 50px;
+
+}
+.form_group {
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+}
+.form_buku_tamu input{
+	height: 30px;
+	width: 50%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	border: 3px solid rgb(231, 72, 158);
+	border-radius: 10px;
+}
+.form_wrapper button {
+    background-color: rgb(231, 72, 158);
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 44px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: auto;
+}
+.section_content {
+	flex: 1;
+	/* display: flex; */
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-position-x: center;
+	background-size: cover;
+	/* width:2000px; */
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	/* min-height: 500px; */
+}
+video{
+	height: auto;
+	margin-bottom: 150px;
+}
+.section_content h1 {
+	font-size: 35px;
+	margin: 0;
+	font-family: 'Great Vibes', cursive;
+}
+.section_content h2 {
+	font-size: 35px;
+	margin: 0;
+	font-family: 'Great Vibes', cursive;
+}
+.section_content p {
+	font-size: 20px;
+	margin: 0;
+}
+
+.section_image {
+	width: 540px;
+	height: 3px;
+	flex : 1;
+	background-size: cover;
+	background-position: center;
+}
+footer {
+    left: 0;
+	bottom: 0;
+	position: fixed;
+	width: 100vw;
+    height: 100px;
+    display: flex;
+    background-color: #FA8072;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ 
+footer p,
+footer h2 {
+    margin: 0;
+    color: rgb(26, 29, 29);
+}
+
+#turutMengundang{
+	padding-top: 70px;
+}

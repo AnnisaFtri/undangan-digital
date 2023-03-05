@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	
+}
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+p {
+	line-height: 2;
+	font-family: 'inter', sans-serif;
+	font-weight: 300;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'inter', sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+.container {
+	min-height: 200vh;
+	margin-bottom: 170px;
+	font-family: times new roman;
+
+}
+
+.container h1 {
+	font-family: times new roman;
+}
+.navbar {
+	width: 100vw;
+	height: 70px;
+	background-color: rgb(255, 182, 193);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+span{
+	color: MediumPurple;
+}
+
+
+.navbar_wrapper {
+	display: flex;
+	color: #e7489e;
+	width: inherit;
+	max-width: 1080px;
+	height: inherit;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.brand {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-weight: 700;
+}
+
+.navabar_menu {
+	display: flex;
+	flex-direction: row;
+	font-weight: 400;
+	font-size: 18px;
+	gap: 30px;
+	text-transform: capitalize;
+}
+
+.hero {
+	color: #e7489e;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 600px;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPxJEgBUYXAOjX_rnCamx_TQxybhFhqloixhhY1YyAVC5wHS6o-ZkxS05PIj59xO_A-ag80kjuUElvwB4BR6GggOBdi6IfN4y6zOufHPcX_wttG_GIjTgOmgSjy-IBxD9BdZHQpo3R6J2CQpQry0LcSPG4bWKorgLh-bbcUEfDy-DW5oW5-5RJKSHA_w/w400-h400/happy_sweet_seventeen_untuk_anak_perempuan.png') ;
+    background-size: cover;
+    background-position: top;
+    transition-duration: 3s;
+    margin-bottom: 70px;
+	position: fixed;
+}
+
+.hero:hover {
+	background-position: bottom;
+}
+.btn{
+	border-radius: 1rem;
+	background: #e7489e;
+	color: black;
+	padding: .5rem 1rem;
+	cursor: grab;
+	font-size: 15px;	
+}
+
+.hero p {
+	font-size: 35px;
+	font-weight: 400;
+	margin: 0;
+}
+.hero h1 {
+	font-weight: 700;
+	font-size: 96px;
+	margin: 0;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+}
+
+.section_title {
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0;
+}
+
